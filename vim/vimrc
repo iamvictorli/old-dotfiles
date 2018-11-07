@@ -15,5 +15,6 @@ set showmatch  " highlight matching [{()}]
 
 set incsearch  " search as characters are entered
 set hlsearch  " highlight matches
-set guifont=Fira\ Code  " set font
 set laststatus=2  " see current filename
+
+set shiftwidth=2  " indenting with two spaces
