@@ -12,3 +12,8 @@ cd dotfiles && cp -R vim ~/.vim
 cd dotfiles/vim/pack/my-plugins/start
 git submodule add ...
 ```
+
+## Update plugins submodules
+```sh
+git submodule update --remote --merge
+```
