@@ -7,3 +7,6 @@
 [submodule "vim/pack/my-plugins/start/auto-pairs"]
 	path = vim/pack/my-plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "vim/pack/my-plugins/start/vim-prettier"]
+	path = vim/pack/my-plugins/start/vim-prettier
+	url = https://github.com/prettier/vim-prettier.git

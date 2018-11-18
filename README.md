@@ -4,7 +4,7 @@
 
 ```sh
 git clone --recurse-submodules -j8 https://github.com/Li-Victor/dotfiles.git
-cd dotfiles && cp -R vim ~/.vim
+cd dotfiles && cp -Rf vim/. ~/.vim
 ```
 
 ## Adding Other plugins
