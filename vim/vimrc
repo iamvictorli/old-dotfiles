@@ -1,3 +1,4 @@
+" https://dougblack.io/words/a-good-vimrc.html
 syntax enable  " enable syntax processing
 
 colorscheme cobalt2
@@ -19,8 +20,19 @@ set laststatus=2  " see current filename
 
 set shiftwidth=2  " indenting with two spaces
 
+" http://vim.wikia.com/wiki/Word_wrap_without_line_breaks
+set wrap " word wrap without line breaks
+set linebreak
+set nolist " list disables linebreak
 
-" Pretier configuration
+" rulers at columns
+" https://stackoverflow.com/questions/50317382/how-set-set-multiple-color-columns-cc-set-colorcolumn-in-vim
+" https://codeyarns.com/2011/07/29/vim-set-color-of-colorcolumn/
+set colorcolumn=80,100,120
+highlight ColorColumn ctermbg=235
+
+" default Prettier configuration, <leader> p to prettier code
+" https://github.com/prettier/vim-prettier
 let g:prettier#exec_cmd_async = 1 " formatting without saving
 
 " max line length that prettier will wrap on
