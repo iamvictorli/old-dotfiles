@@ -1,12 +1,12 @@
 [submodule "vim/pack/my-plugins/start/vim-polyglot"]
 	path = vim/pack/my-plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
-[submodule "vim/pack/my-plugins/start/cobalt2-vim-theme"]
-	path = vim/pack/my-plugins/start/cobalt2-vim-theme
-	url = https://github.com/GertjanReynaert/cobalt2-vim-theme.git
 [submodule "vim/pack/my-plugins/start/auto-pairs"]
 	path = vim/pack/my-plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
 [submodule "vim/pack/my-plugins/start/vim-prettier"]
 	path = vim/pack/my-plugins/start/vim-prettier
 	url = https://github.com/prettier/vim-prettier.git
+[submodule "vim/pack/my-plugins/start/gruvbox"]
+	path = vim/pack/my-plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git

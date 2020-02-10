@@ -1,10 +1,16 @@
 " https://dougblack.io/words/a-good-vimrc.html
 syntax enable  " enable syntax processing
 
-colorscheme cobalt2
+set background=dark  " Setting dark mode
+let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_italic=1
+let g:gruvbox_termcolors=16
+colorscheme gruvbox
+
 set tabstop=2  " number of visual spaces per TAB
 set softtabstop=2  " number of spaces in tab when editing
 set expandtab  " tabs are spaces
+set shiftwidth=2  " indenting with two spaces
 
 set relativenumber  " Show relative line numbers
 set showcmd  " show command in bottom bar
@@ -18,18 +24,19 @@ set incsearch  " search as characters are entered
 set hlsearch  " highlight matches
 set laststatus=2  " see current filename
 
-set shiftwidth=2  " indenting with two spaces
-
 " http://vim.wikia.com/wiki/Word_wrap_without_line_breaks
 set wrap " word wrap without line breaks
 set linebreak
 set nolist " list disables linebreak
 
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
 " rulers at columns
 " https://stackoverflow.com/questions/50317382/how-set-set-multiple-color-columns-cc-set-colorcolumn-in-vim
 " https://codeyarns.com/2011/07/29/vim-set-color-of-colorcolumn/
 set colorcolumn=80,100,120
-highlight ColorColumn ctermbg=235
 
 " default Prettier configuration, <leader> p to prettier code
 " https://github.com/prettier/vim-prettier
