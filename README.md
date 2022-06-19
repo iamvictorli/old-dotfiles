@@ -1,3 +1,5 @@
+**settings moved to https://github.com/iamvictorli/nvim**
+
 # dotfiles
 
 ## Installation
