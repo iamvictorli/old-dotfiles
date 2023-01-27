@@ -1,4 +1,4 @@
-**settings moved to https://github.com/iamvictorli/nvim**
+**dotfiles moved to https://github.com/iamvictorli/dotfiles**
 
 # dotfiles
 
